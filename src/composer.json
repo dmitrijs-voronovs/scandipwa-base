@@ -12,9 +12,10 @@
     },
     "require": {
         "magento/product-community-edition": "2.3.1",
+        "scandipwa/cms-graphql": "1.0.1",
         "scandipwa/installer": "^1.2.0",
-        "scandipwa/source": "2.0.x-dev as 2.0.0",
-        "scandipwa/sitemap": "^1.0"
+        "scandipwa/sitemap": "^1.0",
+        "scandipwa/source": "2.0.1"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~2.13.0",
@@ -66,6 +67,13 @@
         {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "path",
+            "url": "./localmodules/*",
+            "options": {
+                "symlink": true
+            }
         }
     ],
     "extra": {
