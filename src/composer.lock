@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b975152828dc9349886f99c1d036df09",
+    "content-hash": "2c73e41030c126e64fa8a1301853dfac",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -428,8 +428,8 @@
             "authors": [
                 {
                     "name": "Cory LaViska",
-                    "role": "Developer",
-                    "homepage": "http://www.abeautifulsite.net/"
+                    "homepage": "http://www.abeautifulsite.net/",
+                    "role": "Developer"
                 }
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
@@ -1900,9 +1900,9 @@
             "authors": [
                 {
                     "name": "Mathieu Lechat",
-                    "role": "Developer",
                     "email": "math.lechat@gmail.com",
-                    "homepage": "http://matthecat.com"
+                    "homepage": "http://matthecat.com",
+                    "role": "Developer"
                 }
             ],
             "description": "Extract colors from an image as a human would do.",
@@ -10907,28 +10907,28 @@
             "authors": [
                 {
                     "name": "Jim Wigginton",
-                    "role": "Lead Developer",
-                    "email": "terrafrost@php.net"
+                    "email": "terrafrost@php.net",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Patrick Monnerat",
-                    "role": "Developer",
-                    "email": "pm@datasphere.ch"
+                    "email": "pm@datasphere.ch",
+                    "role": "Developer"
                 },
                 {
                     "name": "Andreas Fischer",
-                    "role": "Developer",
-                    "email": "bantu@phpbb.com"
+                    "email": "bantu@phpbb.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Hans-Jürgen Petrich",
-                    "role": "Developer",
-                    "email": "petrich@tronic-media.com"
+                    "email": "petrich@tronic-media.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Graham Campbell",
-                    "role": "Developer",
-                    "email": "graham@alt-three.com"
+                    "email": "graham@alt-three.com",
+                    "role": "Developer"
                 }
             ],
             "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
@@ -11778,17 +11778,11 @@
         },
         {
             "name": "scandipwa/source",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/scandipwa/base-theme.git",
-                "reference": "7763df8f386935fceb908c17ae0516255a28c86d"
-            },
+            "version": "2.3",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/7763df8f386935fceb908c17ae0516255a28c86d",
-                "reference": "7763df8f386935fceb908c17ae0516255a28c86d",
-                "shasum": ""
+                "type": "path",
+                "url": "./localmodules/base-theme",
+                "reference": "1d0e0d8e48354bf11f19cf0f65443f7682463b2e"
             },
             "require": {
                 "magento/magento2-base": "2.3.2",
@@ -11810,7 +11804,6 @@
                     "registration.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -11843,7 +11836,13 @@
                 "scandipwa",
                 "source"
             ],
-            "time": "2019-08-29T12:44:19+00:00"
+            "support": {
+                "source": "https://bitbucket.org/scandiweb/scandipwa-base-theme",
+                "email": "info@scandiweb.com"
+            },
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "scandipwa/urlrewrite-graphql",
@@ -17940,20 +17939,20 @@
             "authors": [
                 {
                     "name": "Manuel Pichler",
-                    "role": "Project Founder",
                     "email": "github@manuel-pichler.de",
-                    "homepage": "https://github.com/manuelpichler"
+                    "homepage": "https://github.com/manuelpichler",
+                    "role": "Project Founder"
                 },
                 {
                     "name": "Marc Würth",
-                    "role": "Project Maintainer",
                     "email": "ravage@bluewin.ch",
-                    "homepage": "https://github.com/ravage84"
+                    "homepage": "https://github.com/ravage84",
+                    "role": "Project Maintainer"
                 },
                 {
                     "name": "Other contributors",
-                    "role": "Contributors",
-                    "homepage": "https://github.com/phpmd/phpmd/graphs/contributors"
+                    "homepage": "https://github.com/phpmd/phpmd/graphs/contributors",
+                    "role": "Contributors"
                 }
             ],
             "description": "PHPMD is a spin-off project of PHP Depend and aims to be a PHP equivalent of the well known Java tool PMD.",
