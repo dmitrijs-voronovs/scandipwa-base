@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c73e41030c126e64fa8a1301853dfac",
+    "content-hash": "b6d24d875b56078fc3f41f7b4e0d90b8",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -11359,17 +11359,11 @@
         },
         {
             "name": "scandipwa/cms-graphql",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/scandipwa/cms-graphql.git",
-                "reference": "54819269840bab9f8a8d92e022b341fe5db5057c"
-            },
+            "version": "1.1",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/cms-graphql/zipball/54819269840bab9f8a8d92e022b341fe5db5057c",
-                "reference": "54819269840bab9f8a8d92e022b341fe5db5057c",
-                "shasum": ""
+                "type": "path",
+                "url": "./localmodules/cms-graphql",
+                "reference": "22943c07be30cfcdf6320b46c89f510dc333a69d"
             },
             "require": {
                 "magento/module-cms-graph-ql": "*"
@@ -11383,7 +11377,6 @@
                     "ScandiPWA\\CmsGraphQl\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -11399,7 +11392,12 @@
                 "pwa",
                 "scandipwa"
             ],
-            "time": "2019-03-08T15:16:43+00:00"
+            "support": {
+                "email": "info@scandiweb.com"
+            },
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "scandipwa/customer-graph-ql",
