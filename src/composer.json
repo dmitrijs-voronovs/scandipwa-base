@@ -65,6 +65,13 @@
         {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        {
+           "type": "path",
+           "url": "./localmodules/*",
+           "options": {
+               "symlink": true
+           }
         }
     ],
     "extra": {
